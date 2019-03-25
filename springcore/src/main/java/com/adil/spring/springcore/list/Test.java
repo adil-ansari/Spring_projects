@@ -11,6 +11,7 @@ public class Test {
 		Hospital hospital = (Hospital) context.getBean("hospital");
 		System.out.println(hospital.getName());
 		System.out.println(hospital.getDepartment());
+		System.out.println(hospital.getDepartment().getClass());
 	}
 
 }
