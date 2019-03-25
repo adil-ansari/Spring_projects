@@ -7,9 +7,6 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
-	<bean name="emp" class="com.adil.spring.springcore.Employee">
-		<property name="id" value="10" />
-
-		<property name="name" value="Adil" />
-	</bean>
+	<bean name="emp" class="com.adil.spring.springcore.Employee" p:id="20"
+		p:name="Adil" />
 </beans>
