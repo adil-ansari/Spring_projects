@@ -9,7 +9,5 @@
 
 	<bean name="scores" class="com.adil.spring.springcore.reftypes.Scores"
 		p:maths="80" p:physics="90" p:chemistry="75" />
-	<bean name="student" class="com.adil.spring.springcore.reftypes.Student">
-		<property name="scores" ref="scores"/>
-	</bean>
+	<bean name="student" class="com.adil.spring.springcore.reftypes.Student" p:scores-ref="scores" />
 </beans>
