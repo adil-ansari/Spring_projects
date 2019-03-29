@@ -2,6 +2,8 @@ package com.adil.spring.springcore.dependencycheck;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Required;
+
 public class Prescription {
 
 	private int id;
@@ -12,6 +14,7 @@ public class Prescription {
 		return id;
 	}
 
+	@Required
 	public void setId(int id) {
 		this.id = id;
 	}

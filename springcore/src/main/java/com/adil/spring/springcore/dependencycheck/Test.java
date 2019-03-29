@@ -10,5 +10,6 @@ public class Test {
 				"com/adil/spring/springcore/dependencycheck/config.xml");
 		Prescription prescription = (Prescription) context.getBean("prescription");
 		System.out.println(prescription);
+
 	}
 }
