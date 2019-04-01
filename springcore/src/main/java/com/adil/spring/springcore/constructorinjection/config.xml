@@ -11,9 +11,5 @@
 		name="address" p:hno="123" p:street="mira mesa" p:city="san diego" />
 
 	<bean class="com.adil.spring.springcore.constructorinjection.Employee"
-		name="employee">
-		<constructor-arg value="123" />
-		<constructor-arg ref="address" />
-	</bean>
-
+		name="employee" c:id="123" c:address-ref="address" />
 </beans>
