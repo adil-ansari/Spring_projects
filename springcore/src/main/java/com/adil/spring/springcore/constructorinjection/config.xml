@@ -7,7 +7,7 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
-	<bean class="com.adil.spring.springcore.constructorinjection"
+	<bean class="com.adil.spring.springcore.constructorinjection.Address"
 		name="address" p:hno="123" p:street="mira mesa" p:city="san diego" />
 
 	<bean class="com.adil.spring.springcore.constructorinjection.Employee"
