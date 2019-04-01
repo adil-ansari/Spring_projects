@@ -30,4 +30,9 @@ public class Address {
 		this.city = city;
 	}
 
+	@Override
+	public String toString() {
+		return "Address [hno=" + hno + ", street=" + street + ", city=" + city + "]";
+	}
+
 }

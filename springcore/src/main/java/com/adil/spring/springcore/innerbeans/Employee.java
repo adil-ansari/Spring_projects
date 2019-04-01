@@ -21,4 +21,9 @@ public class Employee {
 		this.address = address;
 	}
 
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", address=" + address + "]";
+	}
+
 }
